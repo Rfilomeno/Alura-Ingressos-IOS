@@ -12,6 +12,9 @@
 		FD0E7788229EE8000010BC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0E7786229EE8000010BC8A /* Main.storyboard */; };
 		FD0E778A229EE8020010BC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0E7789229EE8020010BC8A /* Assets.xcassets */; };
 		FD0E778D229EE8020010BC8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0E778B229EE8020010BC8A /* LaunchScreen.storyboard */; };
+		FD0E7798229EFB920010BC8A /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0E7795229EFB920010BC8A /* banner.png */; };
+		FD0E7799229EFB920010BC8A /* bandeiras_cartoes.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0E7796229EFB920010BC8A /* bandeiras_cartoes.png */; };
+		FD0E779A229EFB920010BC8A /* logo_alura.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0E7797229EFB920010BC8A /* logo_alura.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		FD0E7789229EE8020010BC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0E778C229EE8020010BC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD0E778E229EE8020010BC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0E7795229EFB920010BC8A /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		FD0E7796229EFB920010BC8A /* bandeiras_cartoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandeiras_cartoes.png; sourceTree = "<group>"; };
+		FD0E7797229EFB920010BC8A /* logo_alura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_alura.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,19 @@
 				FD0E7789229EE8020010BC8A /* Assets.xcassets */,
 				FD0E778B229EE8020010BC8A /* LaunchScreen.storyboard */,
 				FD0E778E229EE8020010BC8A /* Info.plist */,
+				FD0E7794229EFB920010BC8A /* Assets */,
 			);
 			path = "Alura Ingressos";
+			sourceTree = "<group>";
+		};
+		FD0E7794229EFB920010BC8A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FD0E7795229EFB920010BC8A /* banner.png */,
+				FD0E7796229EFB920010BC8A /* bandeiras_cartoes.png */,
+				FD0E7797229EFB920010BC8A /* logo_alura.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +139,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0E779A229EFB920010BC8A /* logo_alura.png in Resources */,
 				FD0E778D229EE8020010BC8A /* LaunchScreen.storyboard in Resources */,
 				FD0E778A229EE8020010BC8A /* Assets.xcassets in Resources */,
 				FD0E7788229EE8000010BC8A /* Main.storyboard in Resources */,
+				FD0E7798229EFB920010BC8A /* banner.png in Resources */,
+				FD0E7799229EFB920010BC8A /* bandeiras_cartoes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
